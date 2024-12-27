@@ -11,7 +11,7 @@ import ThirdLibrary from "@/components/ThridLibrary";
 const unna = Unna({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: genTitle(metaDataPage.title),
+  title: metaDataPage.title,
   description: metaDataPage.description,
   robots:
     "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",

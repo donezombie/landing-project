@@ -55,14 +55,14 @@ const heroData = {
   heading1: "Transform Your Life with Expert Health Coaches",
   description: "If you think wellness is expensive, try illness.",
   image:
-    "https://fitdietpro.com/wp-content/uploads/2024/12/healthy-food-1-pn3u96ngk4rslbifd84xex44k70a4xz0whvitxa3i8.jpg",
+    "/custom/healthy-food-2.webp",
 };
 
 const benefitOne = {
   title: "Highlight your benefits",
   desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
   image:
-    "https://fitdietpro.com/wp-content/uploads/2024/12/young-woman-in-black-sport-clothes-choosing-between-broccoli-or-junk-food-bagels-healthy-clean-1-pn3u92w68i6dlpas4uvuaw2zhn1o1w164lg95pc668.jpg",
+    "/custom/woman-with-broccoli.webp",
   bullets: [
     {
       title: "Healthy Diets",
@@ -268,17 +268,17 @@ const meetOurTeams = [
   {
     name: "Jack Doe",
     role: "Meditation Coach",
-    img: "https://fitdietpro.com/wp-content/uploads/2024/12/portrait-of-a-senior-gray-haired-man-looking-at-th-2022-12-08-04-12-34-utc-1.jpg",
+    img: "/custom/member-1.webp",
   },
   {
     name: "John Doe",
     role: "Diet Coach",
-    img: "https://fitdietpro.com/wp-content/uploads/2024/12/portrait-of-happy-and-successful-business-woman-b-2023-05-23-00-51-27-utc-1.jpg",
+    img: "/custom/member-2.webp",
   },
   {
     name: "Jenny Doe",
     role: "Health Coach",
-    img: "https://fitdietpro.com/wp-content/uploads/2024/12/successful-asian-boss-near-the-office-looks-at-the-2022-12-08-03-58-39-utc-1.jpg",
+    img: "/custom/member-3.webp",
   },
 ];
 
