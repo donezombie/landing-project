@@ -1,4 +1,5 @@
 import React from "react";
+import { twMerge } from 'tailwind-merge'
 
 interface ContainerProps {
   children: React.ReactNode;
@@ -8,9 +9,9 @@ interface ContainerProps {
 export function Container(props: Readonly<ContainerProps>) {
   return (
     <div
-      className={`container p-8 mx-auto xl:px-0 ${
+      className={twMerge(`container p-8 mx-auto xl:px-0 ${
         props.className ? props.className : ""
-      }`}>
+      }`)}>
       {props.children}
     </div>
   );
