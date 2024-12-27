@@ -4,7 +4,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 
 const config: Config = {
-  mode: "jit",
+  // mode: "jit",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,6 +15,9 @@ const config: Config = {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        "primary-darker": "rgb(55, 48, 163)",
+        primary: "rgb(79, 70, 229)",
+        "primary-lighter": "rgb(99, 102, 241)",
       },
     },
     fontFamily: {
@@ -25,6 +28,6 @@ const config: Config = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animated"), require("tailwindcss-intersect")],
 };
 export default config;

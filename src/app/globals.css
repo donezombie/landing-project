@@ -11,3 +11,30 @@
   }
 }
 
+.page-content {
+  p, ul li, ol li {
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  ul, ol {
+    padding-left: 2rem;
+    list-style: circle;
+  }
+
+  h2 {
+    @apply text-4xl;
+    @apply mb-8;
+  }
+
+  h3 {
+    @apply text-3xl;
+    @apply mb-8;
+  }
+
+  h4 {
+    @apply text-2xl;
+    @apply mb-8;
+  }
+}
